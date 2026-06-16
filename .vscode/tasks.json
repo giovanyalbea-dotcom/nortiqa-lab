@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Mount SC2027 VPS",
+      "type": "shell",
+      "command": "if (-not (Get-PSDrive Z -ErrorAction SilentlyContinue)) { rclone mount nortiqa-vps:/home/deploy Z: --vfs-cache-mode writes --vfs-cache-max-size 500M --dir-cache-time 30s --poll-interval 15s --log-level ERROR --volname SC2027-VPS --no-console }",
+      "options": {
+        "shell": {
+          "executable": "powershell.exe",
+          "args": ["-NoProfile", "-Command"]
+        }
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
