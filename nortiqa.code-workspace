@@ -9,5 +9,7 @@
       "path": "Z:\\"
     }
   ],
-  "settings": {}
+  "settings": {
+    "workbench.browser.enableRemoteProxy": true
+  }
 }
