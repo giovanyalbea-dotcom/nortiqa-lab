@@ -1,2 +1,18 @@
-# nortiqa-lab
-Digital products laboratory. Small tools for real problems. No agency, no VC — just honest tools.
+<p align="center">
+  <img src="assets/nortiqa-hero.svg" alt="Nortiqa Lab" width="640">
+</p>
+
+<div align="center">
+
+**Laboratorio de agentes de IA.**
+Soluciones para minería, agro y sector público.
+
+`◷ en construcción`  ·  `Río Gallegos · Patagonia, AR`
+
+</div>
+
+---
+
+<div align="center">
+<sub>© nortiqa lab · dedicado a Edson Albea Dobernack</sub>
+</div>
